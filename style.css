@@ -98,7 +98,7 @@ text-decoration: none;
 
 .top-container{
 
-    width:1100px;
+    width:90%;
     height: 560px;
    /* outline: 2px black solid;*/
     display: flex;
@@ -115,7 +115,7 @@ text-decoration: none;
 
 .blankh{
 
-    width: 700px;
+    width: 70%;
     height: 100%;
     flex:0 1 auto;
 
@@ -146,29 +146,32 @@ text-decoration: none;
 }
 
 .top-picture-container{
-
+    height: 100%;
     display: flex;
     /*border: 2px black solid;*/
     width: 40%;
     border-radius: 70px;
     justify-content: center;
     align-items: center;
-    
+    overflow: hidden;
 }
 
 .top-picture{
+    min-height: 100%;
+    margin-right: 20px;
     display: flex;
-    width: 100%;
-    /*outline: 2px black solid;*/
+    min-width: 100%;
+
     border-radius: 70px;
     position: relative;
-    overflow: hidden;
+    
     
 }
 
 .videochess1{
   
-    min-width: 967px;
+
+
 }
 
 
@@ -208,9 +211,9 @@ margin-bottom:10px;
 .top-text-3{
     display: flex;
     flex-direction: row;
-
-    width: 100%px;
-    height: 80px;
+   
+    width: 85%;
+    height: 20%;
     margin-left: 30px;
     align-items: flex-start;
     justify-content: start;
@@ -227,9 +230,9 @@ display: flex;
 
 .top-text-button{
     font-size: 20px;
-
-    height: 26px;
-    width:80px;
+    color: white;
+    height: 50%;
+    width:20%;
     background-color: rgb(15, 113, 224);
     border-radius: 7px;
     padding-top:1px ;
@@ -270,9 +273,9 @@ a.top-text-button:hover{
     background-color:rgb(9, 68, 134);
     border: 1px white solid;
     box-shadow:.5px .5px .5px .5px;
-    width: 85px;
-    height: 28px;
-    font-size: 21px;
+    width: 25%;
+    height: 55%;
+    font-size: 23px;
   
   
   }
