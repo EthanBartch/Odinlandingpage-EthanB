@@ -1,1 +1,35 @@
 # Odinlandingpage-EthanB
+
+sources ____________ 
+
+
+https://www.pexels.com/photo/black-white-and-brown-chess-board-game-139392/     creator:pexels
+free photo website 
+ 
+ 
+ 
+ 
+ 
+ 
+https://pixabay.com/illustrations/chess-chess-piece-farmer-400283/ creator:Roark 
+free photo website 
+ 
+ 
+ 
+https://mixkit.co/free-stock-video/silhouette-of-chess-pieces-22903/ creator:mixkit 
+free video website 
+ 
+ 
+ 
+ https://mixkit.co/free-stock-video/king-and-queen-across-a-chessboard-11692/ creator:mixkit 
+free video website
+
+
+
+
+
+ Everything Else is made by me including the logo the title and the chess category pictures this project is strictly for perosonal use and i am not gaining any profit from this 
+ 
+ 
+ 
+ if you are the orginal creator or licese owner and would like for me to take this down email me at bartchethan0@gmail.com

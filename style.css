@@ -1,0 +1,646 @@
+body{
+
+height: 240vh;
+display: flex;
+margin: 0;
+padding: 0;
+flex-direction: column;
+justify-content: top;
+align-items: center;
+background-color: grey;
+}
+
+a{
+
+
+text-decoration: none;
+
+}
+
+
+.wrapper{
+
+   overflow-y: auto;
+   height: 280vh;
+   overflow-x: hidden;
+   perspective: 10px;
+
+
+}
+
+
+
+.header{
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    width: 100%;
+    height: 60px;
+
+}
+
+
+.top-image{
+
+    display: flex;
+    
+    width: 100%;
+    height: 750px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.411)) , url(images/chess1.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+   
+
+
+
+
+
+
+}
+
+.information-image{
+
+    display: flex;
+    outline: 2px black solid;
+    height: 530px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    z-index:-1 ;
+
+}
+
+
+
+
+
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.title-container{
+
+    width:300px;
+    height: 100%;
+    justify-content: center;
+    align-items:end;
+    display: flex;
+    flex-shrink: 0;
+
+
+
+}
+
+
+
+.top-container{
+
+    width:1100px;
+    height: 560px;
+   /* outline: 2px black solid;*/
+    display: flex;
+    position: absolute;
+    background-color: rgb(37,36, 36);
+    opacity: .99;
+    border-radius: 70px;
+    box-shadow: 1px 1px 5px 1px black;
+    opacity: 0.95;
+
+}
+
+
+
+.blankh{
+
+    width: 700px;
+    height: 100%;
+    flex:0 1 auto;
+
+}
+
+.about-container{
+    display: flex;
+
+    width: 131px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+
+}
+
+.top-text-container{
+
+    display: flex;
+    /*border: 2px black solid;*/
+    width: 60%;
+    border-radius: 70px;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction:column;
+   
+}
+
+.top-picture-container{
+
+    display: flex;
+    /*border: 2px black solid;*/
+    width: 40%;
+    border-radius: 70px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-picture{
+    display: flex;
+    width: 100%;
+    /*outline: 2px black solid;*/
+    border-radius: 70px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.videochess1{
+  
+    min-width: 967px;
+}
+
+
+
+.top-text{
+
+margin-left:10px ;
+flex-direction: column;
+width:80% ;
+height:100px ;
+margin-top: 30px;
+font-size: 50px;
+font-family: 'Ubuntu', sans-serif;
+text-align:flex-start;
+color: whitesmoke;
+margin-bottom:10px;
+
+}
+
+.top-text-2{
+    
+    margin: 0px;
+    color: white;
+    flex-wrap: wrap;
+    width:80%;
+    height:50% ;
+    font-size: 21px;
+    text-indent: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2em;
+    font-size:25px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+} 
+
+.top-text-3{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%px;
+    height: 80px;
+    margin-left: 30px;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 0px;
+}
+
+.top-text-button-container{
+display: flex;
+
+    height:60px;
+    text-align: center;
+    width: 570px;
+}
+
+.top-text-button{
+    font-size: 20px;
+
+    height: 26px;
+    width:80px;
+    background-color: rgb(15, 113, 224);
+    border-radius: 7px;
+    padding-top:1px ;
+    padding-bottom:2px ;
+    border: 1px white solid;
+    transition: .2s;
+}
+
+
+
+
+
+
+
+
+
+
+a.top-text-button{
+
+    font-family: 'Oxygen', sans-serif;
+    border: 1px white solid;
+}
+
+
+
+a.top-text-button:visited{
+
+  color: white;
+  border: 1px white solid;
+
+
+
+}
+
+a.top-text-button:hover{
+
+    color: white;
+    background-color:rgb(9, 68, 134);
+    border: 1px white solid;
+    box-shadow:.5px .5px .5px .5px;
+    width: 85px;
+    height: 28px;
+    font-size: 21px;
+  
+  
+  }
+  
+  
+
+
+
+
+
+a.about{
+    
+    background-color: orangered;
+    padding:7px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+
+
+
+}
+
+
+
+a.about:visited {
+    
+    background-color: orangered;
+    padding:7px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+  
+
+
+
+
+}
+a.about:hover{
+    
+    background-color: rgb(1, 10, 167);
+    padding:7px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    box-shadow: 1px 1px 5px -1px;
+  
+
+
+
+
+}
+
+.title{
+width: 320px;
+height: 70px;
+
+
+
+
+}
+
+
+.middle{
+
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.404);
+    position: relative;
+    overflow: hidden;
+}
+
+.chessvid{
+
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+z-index: -1;
+
+}
+
+.mcont{
+display: flex;
+height: 100%;
+width: 25%;
+
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+
+.mone{
+display: flex;
+margin-top: 20px;
+background-color: rgb(37,36, 36);
+width: 69%;
+height: 70%;
+outline: 2px rgb(48, 48, 49) solid;
+border-radius: 20px;
+transition: 1s;
+overflow: hidden;
+justify-content: center;
+justify-items: center;
+
+
+
+}
+
+.elo900{
+    flex-shrink:0;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+a.mone:hover{
+
+background-color: rgb(48, 48, 49);
+ box-shadow: 0px 0px 7px 5px white;
+ width:70% ;
+ height: 80%;
+}
+
+
+.mone-text{
+border-radius: 20px;
+transition: 1s;
+margin-top: 18px;
+height: 9%;
+width: 50%;
+outline: 2px rgb(255, 255, 255) solid;
+flex-shrink:0 ;
+text-align: center;
+color: rgba(0, 0, 0, .001);
+display: flex;
+font-size: 8px;
+align-items: center;
+justify-content: center;
+white-space:nowrap;
+}
+
+a.mone-text:hover{
+
+color: rgb(255, 255, 255);
+width: 60%;
+height: 20%;
+align-items: center;
+justify-content: center;
+font-size: 15px;
+text-shadow: 0px 0px 15px #ffffff;
+white-space:nowrap;
+}
+
+
+
+ 
+
+
+
+
+
+.mtwo{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(37,36, 36);
+    width: 69%;
+    height: 70%;
+    outline: 2px rgb(48, 48, 49) solid;
+    border-radius: 20px;
+    transition: 1s;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    
+    
+    }
+    
+    a.mtwo:hover{
+    
+    background-color: rgb(48, 48, 49);
+    box-shadow: 0px 0px 7px 5px white;
+    width:70% ;
+    height: 80%;
+    
+    }
+
+    .elo1000{
+
+        flex-shrink:0;
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+
+
+
+
+
+    .mthree{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(37,36, 36);
+        width: 69%;
+        height: 70%;
+        outline: 2px rgb(48, 48, 49) solid;
+        border-radius: 20px;
+        transition: 1s;
+        overflow: hidden;
+        justify-content: center;
+        justify-items: center;
+        
+
+    }
+        
+     a.mthree:hover{
+        
+        background-color: rgb(48, 48, 49);
+        box-shadow: 0px 0px 7px 5px white;
+        width:70% ;
+        height: 80%;
+    
+        }
+    
+
+    .elo1600{
+
+        flex-shrink:0;
+        min-height: 100%;
+        min-width: 100%;
+
+
+    }
+
+
+
+    .mfour{
+
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(37,36, 36);
+        width: 69%;
+        height: 70%;
+        outline: 2px rgb(48, 48, 49) solid;
+        border-radius: 20px;
+        transition: 1s;
+        overflow: hidden;
+        justify-content: center;
+        justify-items: center;
+        
+        
+            
+    }
+            
+    a.mfour:hover{
+            
+        background-color: rgb(48, 48, 49);
+        box-shadow: 0px 0px 7px 5px white;
+        width:79% ;
+        height: 80%;
+            
+ }
+
+    .elo2100{
+
+    flex-shrink:0;
+    min-height: 100%;
+    min-width: 100%;}
+
+
+.quote{
+    
+   display: flex;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(18, 12, 77, 0.5);
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(42, 12, 211, 0.411)) , url(images/catchess.jpg);
+   
+
+
+
+}
+
+
+
+
+
+
+
+.quote-box{
+display: flex;
+
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quote-box-blank{
+
+ 
+
+    height: 100%;
+    width: 50%;
+  
+  }
+
+  .actuall-quote{
+    display: flex;
+   
+    outline: 2px rgb(236, 233, 233) solid;
+    background-color: gray;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+.actuall-text{
+
+margin-top: 20px;
+
+width: 90%;
+height: 50%;
+font-size: 30px;
+line-height: 2em;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+
+.quote-name{
+margin-top:100px ;
+
+width: 90%;
+height: 10%;
+font-size: 30px;
+color: rgb(0, 0, 0);
+font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+.footer{
+display: flex;
+
+height: 5%;
+width: 100%;
+background-color: rgb(48, 48, 47);
+justify-content: center;
+justify-items: center;
+}
+
+.footer-text{
+
+    margin-top: 10px;
+  
+    height: 20%;
+    width: 10%;
+    color: white;
+
+}
