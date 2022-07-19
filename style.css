@@ -1,6 +1,6 @@
 body{
 
-height: 200vh;
+height: 210vh;
 display: flex;
 margin: 0;
 padding: 0;
@@ -44,7 +44,7 @@ text-decoration: none;
     display: flex;
     
     width: 100%;
-    height: 750px;
+    height: 50%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.411)) , url(images/chess1.jpg);
     background-size: cover;
     justify-content: center;
@@ -344,7 +344,7 @@ height: 70px;
 
     display: flex;
     width: 100%;
-    height: 450px;
+    height: 35%;
     background: rgba(0, 0, 0, 0.404);
     position: relative;
     overflow: hidden;
